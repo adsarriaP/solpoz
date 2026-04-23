@@ -108,7 +108,15 @@ export default function Contact() {
           {/* Right — info card */}
           <Animate animation="fade-left" delay={150}>
           <div className="bg-gradient-to-br from-blue-950 to-blue-900 rounded-2xl p-10 text-white">
-            
+            <div className="mb-8">
+               <Image
+                              src="/img/logosolp.png"
+                              alt="SOLPOZ S.A.S."
+                              width={200}
+                              height={200}
+                              className="h-24 w-auto object-contain"
+                            />
+            </div>
 
             <div className="space-y-6">
               <div>
